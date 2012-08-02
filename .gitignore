@@ -1,17 +1,19 @@
-.netrwhist
-tmp
-nerdtree_plugin
+/* .netrwhist*/
+/* tmp*/
+/* nerdtree_plugin*/
 
-after
-autoload
-doc
-plugin
-ruby
-snippets
-syntax
-syntax_checkers
-ftdetect
-ftplugin
-colors
-indent
-.VimballRecord
+/* after*/
+/* autoload*/
+/* doc*/
+/* plugin*/
+/* ruby*/
+/* snippets*/
+/* syntax*/
+/* syntax_checkers*/
+/* ftdetect*/
+/* ftplugin*/
+/* colors*/
+/* indent*/
+/* .VimballRecord*/
+
+.DS_Store
