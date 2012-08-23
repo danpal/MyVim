@@ -691,6 +691,8 @@ function! s:stage_info(lnum) abort
     return [matchstr(filename, ': *\zs.*'), 'staged']
   elseif getline(lnum+2) =~# '^# .*"git checkout ' || getline(lnum) ==# '# Changes not staged for commit:'
     return [matchstr(filename, ': *\zs.*'), 'unstaged']
+  elseif getline(lnum+1) =~# '^# .*"git add/rm ' || getline(lnum) ==# '# Unmerged paths:'
+    return [matchstr(filename, ': *\zs.*'), 'unmerged']
   else
     return [filename, 'untracked']
   endif
@@ -1595,7 +1597,7 @@ function! s:Blame(bang,line1,line2,count,args) abort
         execute top
         normal! zt
         execute current
-        execute "vertical resize ".(s:linechars('.\{-\}\d\ze\s\+\d\+)')+1)
+        execute "vertical resize ".(s:linechars('.\{-\}\ze\s\+\d\+)')+1)
         setlocal nomodified nomodifiable nonumber scrollbind nowrap foldcolumn=0 nofoldenable filetype=fugitiveblame
         if exists('+relativenumber')
           setlocal norelativenumber

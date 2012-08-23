@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/dani'
-let g:netrw_dirhist_2='/Users/dani/.vim'
-let g:netrw_dirhist_3='/Users/dani'
-let g:netrw_dirhist_4='/Users/dani/Development/authy/supportly'
-let g:netrw_dirhist_5='/Users/dani'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/dani/Development/authy/authy-chef'
+let g:netrw_dirhist_2='/Users/dani/Development/authy/authy-bastion'
+let g:netrw_dirhist_3='/Users/dani/Development/authy/authy-bastion/cookbooks/setup'
+let g:netrw_dirhist_4='/Users/dani/Development/authy/authy-bastion'
+let g:netrw_dirhist_5='/Users/dani/.vim'
+let g:netrw_dirhist_6='/Users/dani/Development/authy/authy-api'
