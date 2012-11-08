@@ -55,6 +55,8 @@
 'Tlist_Use_SingleClick'	taglist.txt	/*'Tlist_Use_SingleClick'*
 'Tlist_WinHeight'	taglist.txt	/*'Tlist_WinHeight'*
 'Tlist_WinWidth'	taglist.txt	/*'Tlist_WinWidth'*
+'g:dwm_map_keys'	dwm.txt	/*'g:dwm_map_keys'*
+'g:dwm_master_pane_width'	dwm.txt	/*'g:dwm_master_pane_width'*
 'loaded_nerd_comments'	NERD_commenter.txt	/*'loaded_nerd_comments'*
 'loaded_nerd_tree'	NERD_tree.txt	/*'loaded_nerd_tree'*
 'snippets'	snipMate.txt	/*'snippets'*
@@ -96,6 +98,10 @@
 :CommandT	command-t.txt	/*:CommandT*
 :CommandTBuffer	command-t.txt	/*:CommandTBuffer*
 :CommandTFlush	command-t.txt	/*:CommandTFlush*
+:DWM_Close	dwm.txt	/*:DWM_Close*
+:DWM_Focus	dwm.txt	/*:DWM_Focus*
+:DWM_Full	dwm.txt	/*:DWM_Full*
+:DWM_New	dwm.txt	/*:DWM_New*
 :Errors	syntastic.txt	/*:Errors*
 :Gist	gist-vim.txt	/*:Gist*
 :LAck	ack.txt	/*:LAck*
@@ -425,6 +431,16 @@ conque_term-todo	conque_term.txt	/*conque_term-todo*
 conque_term-usage	conque_term.txt	/*conque_term-usage*
 cs	surround.txt	/*cs*
 ds	surround.txt	/*ds*
+dwm	dwm.txt	/*dwm*
+dwm-changelog	dwm.txt	/*dwm-changelog*
+dwm-commands	dwm.txt	/*dwm-commands*
+dwm-contents	dwm.txt	/*dwm-contents*
+dwm-credits	dwm.txt	/*dwm-credits*
+dwm-intro	dwm.txt	/*dwm-intro*
+dwm-license	dwm.txt	/*dwm-license*
+dwm-mappings	dwm.txt	/*dwm-mappings*
+dwm-options	dwm.txt	/*dwm-options*
+dwm.txt	dwm.txt	/*dwm.txt*
 ft-coffee-script-syntax	coffee-script.txt	/*ft-coffee-script-syntax*
 ft-gitcommit-plugin	ft-gitcommit-plugin.txt	/*ft-gitcommit-plugin*
 fugitive	fugitive.txt	/*fugitive*

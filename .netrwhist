@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/dani/Development/authy/authy-chef'
-let g:netrw_dirhist_2='/Users/dani/Development/authy/authy-bastion'
-let g:netrw_dirhist_3='/Users/dani/Development/authy/authy-bastion/cookbooks/setup'
-let g:netrw_dirhist_4='/Users/dani/Development/authy/authy-bastion'
-let g:netrw_dirhist_5='/Users/dani/.vim'
-let g:netrw_dirhist_6='/Users/dani/Development/authy/authy-api'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/dani/Development/authy/authy-android'
+let g:netrw_dirhist_2='/Users/dani/Development/authy/authy-website'
+let g:netrw_dirhist_3='/Users/dani'
+let g:netrw_dirhist_4='/Users/dani/Development/authy/authy-android'
+let g:netrw_dirhist_5='/Users/dani/Downloads/SwipeViewBundle'
+let g:netrw_dirhist_6='/Users/dani/Development/authy/authy-android'
+let g:netrw_dirhist_7='/Users/dani/.vim/plugin'
+let g:netrw_dirhist_8='/Users/dani/Development/authy/authy-android'
